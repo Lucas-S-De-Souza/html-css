@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: "android";
+            src: url('../fonts/._idroid.otf') format('opentype');
+            font-weight: 200;
+            font-style: normal;
+        }
+            /*
+              Tipos de Format()
+              -opentype(otf)
+              -truetype(ttf)
+              -embeddad-opentype
+              -truetype-aat (Apple Advanced Typography)
+              -svg
+            */
+        
+        body {
+            font-family: 'android', Times, sans-serif;
+        }
+
+        h1 {
+            font-family: 'android';
+            font-size: 3em;
+            font-weight: 200;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora architecto, veritatis neque officia, temporibus minus exercitationem sint velit corporis qui mollitia id odio odit similique enim modi nisi ullam corrupti?</p>
+</body>
+</html>
