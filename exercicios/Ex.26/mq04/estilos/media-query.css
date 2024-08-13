@@ -3,10 +3,10 @@
 /* Todas as demais mídias */
 
 /* Typical Devices Breakpoints *ATUALIZADO 27/05/2024*
-Pequenas Telas: até 320px
-Celular: de 321px até 480px
-Tablet: de 481px até 768px
-Computador: de 769px até 1200px
+Pequenas Telas: até 600px
+Celular: de 601px até 768px
+Tablet: de 769px até 992px
+Computador: de 993px até 1200px
 Grandes Telas: acima de 1201px
 */
 
@@ -17,6 +17,12 @@ Grandes Telas: acima de 1201px
 
     main {
         border: 2px solid black;
+        width: 90vw;
+    }
+
+    main::after {
+        content: 'Essa impressão foi feita por Lucas Santana';
+        text-decoration: overline;
     }
 
     main h1 {
@@ -31,7 +37,7 @@ Grandes Telas: acima de 1201px
     img#tv { display: none; }
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) { /* TABLET */
+@media screen and (min-width: 601px) and (max-width: 768px) { /* TABLET */
     body {
         background-image: url(../imagens/back-tablet.jpg);
 }
